@@ -4814,16 +4814,22 @@ select,
      HERO ART
   ------------------------------------------------------- */
 
+  
   .hero-art{
+    position:absolute;
+
     left:50%;
+    top:0;
+    bottom:auto;
 
     width:100vw;
-    height:100%;
+    height:100svh;
 
-    bottom:0;
-
+    display:flex;
     align-items:flex-end;
     justify-content:center;
+
+    z-index:5;
 
     transform:translate(-50%,100vh);
   }
@@ -4833,15 +4839,18 @@ select,
   }
 
   .hero-art img{
+    display:block;
+
     width:auto;
-    height:120%;
+    height:100svh;
 
     max-width:none;
-    max-height:100%;
+    max-height:none;
 
     object-fit:contain;
     object-position:center bottom;
   }
+
 
   .art-glow{
     width:75%;
