@@ -283,26 +283,48 @@
   <div class="stats-bg-grid"></div>
   <div class="stats-glow"></div>
 
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+
   <div class="stats-header">
+
     <div>
-      <span class="stats-eyebrow">CYBER OF X // COMBAT DATABASE</span>
-      <h2>PLAYER <span>STATS</span></h2>
-      <p>TACTICAL PERFORMANCE // BATTLE RECORD // COMBAT ANALYTICS</p>
+
+      <span class="stats-eyebrow">
+        CYBER OF X // COMBAT DATABASE
+      </span>
+
+      <h2>
+        PLAYER <span>STATS</span>
+      </h2>
+
+      <p>
+        TACTICAL PERFORMANCE // BATTLE RECORD // COMBAT ANALYTICS
+      </p>
+
     </div>
 
     <div class="stats-status">
       <span></span>
       LIVE DATABASE
     </div>
+
   </div>
 
 
-  <!-- GAME SELECTOR -->
-  <!-- GAME SELECTOR HUD -->
+  <!-- =====================================================
+       GAME SELECTOR
+  ====================================================== -->
 
   <div class="game-selector">
 
-    <button class="game-tab active" data-game="delta">
+    <button
+      type="button"
+      class="game-tab active"
+      data-game="delta"
+    >
 
       <span class="game-tab-index">01</span>
 
@@ -316,7 +338,11 @@
     </button>
 
 
-    <button class="game-tab" data-game="codm">
+    <button
+      type="button"
+      class="game-tab"
+      data-game="codm"
+    >
 
       <span class="game-tab-index">02</span>
 
@@ -330,7 +356,11 @@
     </button>
 
 
-    <button class="game-tab" data-game="asphalt9">
+    <button
+      type="button"
+      class="game-tab"
+      data-game="asphalt9"
+    >
 
       <span class="game-tab-index">03</span>
 
@@ -346,37 +376,71 @@
   </div>
 
 
-  <!-- ================= DELTA FORCE ================= -->
+
+  <!-- =====================================================
+       DELTA FORCE
+  ====================================================== -->
 
   <div class="game-panel active" id="delta">
 
     <div class="game-panel-heading">
+
       <div>
-        <span>DELTA FORCE // COMBAT PROFILE</span>
-        <h3>TACTICAL OPERATIONS</h3>
+
+        <span>
+          DELTA FORCE // COMBAT PROFILE
+        </span>
+
+        <h3>
+          TACTICAL OPERATIONS
+        </h3>
+
       </div>
 
+
       <div class="player-rank">
-        <img src="assets/ranks/dfmop.png" alt="Delta Force Rank">
+
+        <img
+          src="assets/ranks/dfmop.png"
+          alt="Delta Force Rank"
+        >
+
         <div>
+
           <small>CURRENT RANK</small>
+
           <strong>YOUR RANK</strong>
+
           <em>LEVEL 00</em>
+
         </div>
+
       </div>
+
     </div>
 
 
-    <!-- MODE SELECTOR -->
+
+    <!-- ===================================================
+         DELTA MODE SELECTOR
+    ==================================================== -->
 
     <div class="mode-selector">
 
-      <button class="mode-tab active" data-mode="delta-warfare">
+      <button
+        type="button"
+        class="mode-tab active"
+        data-mode="delta-warfare"
+      >
         <span>01</span>
         WARFARE
       </button>
 
-      <button class="mode-tab" data-mode="delta-operations">
+      <button
+        type="button"
+        class="mode-tab"
+        data-mode="delta-operations"
+      >
         <span>02</span>
         OPERATIONS
       </button>
@@ -384,119 +448,197 @@
     </div>
 
 
-    <!-- WARFARE -->
 
-    <div class="mode-panel active" id="delta-warfare">
+    <!-- ===================================================
+         DELTA WARFARE
+    ==================================================== -->
+
+    <div
+      class="mode-panel active"
+      id="delta-warfare"
+    >
 
       <div class="mode-title">
 
         <div class="mode-badge">
+
           <img
             src="assets/ranks/dfmwf.png"
             alt="Delta Force Warfare Badge"
           >
+
         </div>
 
         <div>
-          <span>DELTA FORCE // WARFARE</span>
-          <strong>COMBAT ANALYSIS</strong>
+
+          <span>
+            DELTA FORCE // WARFARE
+          </span>
+
+          <strong>
+            COMBAT ANALYSIS
+          </strong>
+
         </div>
 
       </div>
+
 
 
       <div class="stat-grid">
 
-        <div class="big-stat">
+        <!-- K/D -->
+
+        <div
+          class="big-stat"
+          data-stat="kd"
+          data-kills="5137"
+          data-deaths="95"
+        >
+
           <small>K/D RATIO</small>
-          <strong>2.48</strong>
-          <span class="positive">+12.4%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <!-- W/L -->
+
+        <div
+          class="big-stat"
+          data-stat="wl"
+          data-matches="185"
+          data-wins="95"
+        >
+
           <small>W/L RATIO</small>
-          <strong>1.82</strong>
-          <span class="positive">+8.7%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <!-- MATCHES -->
+
+        <div
+          class="big-stat"
+          data-stat="matches"
+          data-matches="185"
+        >
+
           <small>MATCHES PLAYED</small>
-          <strong>248</strong>
+
+          <strong>0</strong>
+
           <span>TOTAL</span>
+
         </div>
 
-        <div class="big-stat">
+
+        <!-- WINS -->
+
+        <div
+          class="big-stat"
+          data-stat="wins"
+          data-matches="185"
+          data-wins="95"
+        >
+
           <small>MATCHES WON</small>
-          <strong>156</strong>
-          <span class="positive">62.9%</span>
+
+          <strong>0</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
       </div>
 
 
+
+      <!-- =================================================
+           DELTA WARFARE DONUT
+      ================================================== -->
+
       <div class="analytics-grid">
 
-        <div class="chart-card">
+        <div class="performance-card">
 
           <div class="chart-heading">
-            <span>K/D PERFORMANCE</span>
-            <small>LAST 10 MATCHES</small>
-          </div>
 
-          <div class="line-chart">
+            <span>
+              WIN / LOSS
+            </span>
 
-            <svg viewBox="0 0 500 180" preserveAspectRatio="none">
-
-              <defs>
-                <linearGradient
-                  id="deltaKDGradient"
-                  x1="0"
-                  x2="0"
-                  y1="0"
-                  y2="1"
-                >
-                  <stop
-                    offset="0%"
-                    stop-color="#ff3f9c"
-                    stop-opacity=".35"
-                  />
-
-                  <stop
-                    offset="100%"
-                    stop-color="#ff3f9c"
-                    stop-opacity="0"
-                  />
-                </linearGradient>
-              </defs>
-
-              <path
-                class="chart-area"
-                d="M0 145 L50 125 L100 132 L150 90 L200 105 L250 65 L300 82 L350 50 L400 68 L450 35 L500 45 L500 180 L0 180 Z"
-              />
-
-              <polyline
-                class="chart-line"
-                points="0,145 50,125 100,132 150,90 200,105 250,65 300,82 350,50 400,68 450,35 500,45"
-              />
-
-              <circle cx="450" cy="35" r="4"/>
-              <circle cx="500" cy="45" r="4"/>
-
-            </svg>
+            <small class="matches-label">
+              185 MATCHES
+            </small>
 
           </div>
 
-          <div class="chart-labels">
-            <span>M01</span>
-            <span>M02</span>
-            <span>M03</span>
-            <span>M04</span>
-            <span>M05</span>
-            <span>M06</span>
-            <span>M07</span>
-            <span>M08</span>
-            <span>M09</span>
-            <span>M10</span>
+
+          <div
+            class="donut-chart"
+            data-donut
+          >
+
+            <div class="donut-inner">
+
+              <strong data-win-rate>
+                0%
+              </strong>
+
+              <small>
+                WIN RATE
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="win-loss">
+
+            <div>
+
+              <i class="win-dot"></i>
+
+              <span>
+                WINS
+              </span>
+
+              <strong data-wins>
+                0
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <i class="loss-dot"></i>
+
+              <span>
+                LOSSES
+              </span>
+
+              <strong data-losses>
+                0
+              </strong>
+
+            </div>
+
           </div>
 
         </div>
@@ -505,31 +647,71 @@
         <div class="performance-card">
 
           <div class="chart-heading">
-            <span>WIN / LOSS</span>
-            <small>248 MATCHES</small>
+
+            <span>
+              K/D PERFORMANCE
+            </span>
+
+            <small>
+              COMBAT RATIO
+            </small>
+
           </div>
 
-          <div class="donut-chart">
+
+          <div
+            class="donut-chart"
+            data-kd-donut
+            data-kills="5137"
+            data-deaths="95"
+            data-kd-reference="10"
+            style="--win-rate: 0%;"
+          >
 
             <div class="donut-inner">
-              <strong>62.9%</strong>
-              <small>WIN RATE</small>
+
+              <strong data-kd-value>
+                0.00
+              </strong>
+
+              <small>
+                K/D RATIO
+              </small>
+
             </div>
 
           </div>
+
 
           <div class="win-loss">
 
             <div>
+
               <i class="win-dot"></i>
-              <span>WINS</span>
-              <strong>156</strong>
+
+              <span>
+                KILLS
+              </span>
+
+              <strong data-kills-display>
+                0
+              </strong>
+
             </div>
 
+
             <div>
+
               <i class="loss-dot"></i>
-              <span>LOSSES</span>
-              <strong>92</strong>
+
+              <span>
+                DEATHS
+              </span>
+
+              <strong data-deaths-display>
+                0
+              </strong>
+
             </div>
 
           </div>
@@ -541,128 +723,268 @@
     </div>
 
 
-    <!-- OPERATIONS -->
 
-    <div class="mode-panel" id="delta-operations">
+    <!-- ===================================================
+         DELTA OPERATIONS
+    ==================================================== -->
+
+    <div
+      class="mode-panel"
+      id="delta-operations"
+    >
 
       <div class="mode-title">
 
         <div class="mode-badge">
+
           <img
             src="assets/ranks/dfmop.png"
             alt="Delta Force Operations Badge"
           >
+
         </div>
 
         <div>
-          <span>DELTA FORCE // OPERATIONS</span>
-          <strong>EXTRACTION ANALYSIS</strong>
+
+          <span>
+            DELTA FORCE // OPERATIONS
+          </span>
+
+          <strong>
+            EXTRACTION ANALYSIS
+          </strong>
+
         </div>
 
       </div>
+
 
 
       <div class="stat-grid">
 
-        <div class="big-stat">
+        <div
+          class="big-stat"
+          data-stat="kd"
+          data-kills="278"
+          data-deaths="142"
+        >
+
           <small>K/D RATIO</small>
-          <strong>3.14</strong>
-          <span class="positive">+18.2%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wl"
+          data-matches="420"
+          data-wins="278"
+        >
+
           <small>W/L RATIO</small>
-          <strong>2.06</strong>
-          <span class="positive">+14.1%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="matches"
+          data-matches="420"
+        >
+
           <small>MATCHES PLAYED</small>
-          <strong>184</strong>
-          <span>TOTAL</span>
+
+          <strong>0</strong>
+
+          <span>
+            TOTAL
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wins"
+          data-matches="420"
+          data-wins="278"
+        >
+
           <small>MATCHES WON</small>
-          <strong>123</strong>
-          <span class="positive">66.8%</span>
+
+          <strong>0</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
       </div>
 
 
+
+      <!-- =================================================
+           OPERATIONS DONUTS
+      ================================================== -->
+
       <div class="analytics-grid">
 
-        <div class="chart-card">
+
+        <!-- TOTAL ASSETS -->
+
+        <div class="performance-card">
 
           <div class="chart-heading">
-            <span>EXTRACTION PERFORMANCE</span>
-            <small>LAST 10 OPERATIONS</small>
-          </div>
 
-          <div class="line-chart">
+            <span>
+              TOTAL ASSETS
+            </span>
 
-            <svg
-              viewBox="0 0 500 180"
-              preserveAspectRatio="none"
-            >
-
-              <polyline
-                class="chart-line"
-                points="0,130 50,110 100,120 150,78 200,95 250,58 300,70 350,40 400,55 450,30 500,38"
-              />
-
-              <circle cx="450" cy="30" r="4"/>
-              <circle cx="500" cy="38" r="4"/>
-
-            </svg>
+            <small>
+              ASSETS ACQUIRED
+            </small>
 
           </div>
 
-          <div class="chart-labels">
-            <span>01</span>
-            <span>02</span>
-            <span>03</span>
-            <span>04</span>
-            <span>05</span>
-            <span>06</span>
-            <span>07</span>
-            <span>08</span>
-            <span>09</span>
-            <span>10</span>
+
+          <div
+            class="donut-chart operations-donut"
+            data-asset-donut
+            data-assets-owned="278"
+            data-assets-total="500"
+            style="--win-rate: 0%;"
+          >
+
+            <div class="donut-inner">
+
+              <strong data-asset-percent>
+                0%
+              </strong>
+
+              <small>
+                ASSETS
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="win-loss">
+
+            <div>
+
+              <i class="win-dot"></i>
+
+              <span>
+                OBTAINED
+              </span>
+
+              <strong data-assets-owned-display>
+                0
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <i class="loss-dot"></i>
+
+              <span>
+                REMAINING
+              </span>
+
+              <strong data-assets-remaining>
+                0
+              </strong>
+
+            </div>
+
           </div>
 
         </div>
 
 
+        <!-- SUCCESS RATE -->
+
         <div class="performance-card">
 
           <div class="chart-heading">
-            <span>SUCCESS RATE</span>
-            <small>184 OPERATIONS</small>
+
+            <span>
+              SUCCESS RATE
+            </span>
+
+            <small>
+              OPERATIONS
+            </small>
+
           </div>
 
-          <div class="donut-chart operations-donut">
+
+          <div
+            class="donut-chart"
+            data-donut
+          >
 
             <div class="donut-inner">
-              <strong>66.8%</strong>
-              <small>SUCCESS</small>
+
+              <strong data-win-rate>
+                0%
+              </strong>
+
+              <small>
+                SUCCESS
+              </small>
+
             </div>
 
           </div>
+
 
           <div class="win-loss">
 
             <div>
+
               <i class="win-dot"></i>
-              <span>SUCCESS</span>
-              <strong>123</strong>
+
+              <span>
+                SUCCESS
+              </span>
+
+              <strong data-wins>
+                0
+              </strong>
+
             </div>
 
+
             <div>
+
               <i class="loss-dot"></i>
-              <span>FAILED</span>
-              <strong>61</strong>
+
+              <span>
+                FAILED
+              </span>
+
+              <strong data-losses>
+                0
+              </strong>
+
             </div>
 
           </div>
@@ -676,16 +998,27 @@
   </div>
 
 
-  <!-- ================= COD MOBILE ================= -->
+
+  <!-- =====================================================
+       COD MOBILE
+  ====================================================== -->
 
   <div class="game-panel" id="codm">
 
     <div class="game-panel-heading">
 
       <div>
-        <span>CALL OF DUTY MOBILE // COMBAT PROFILE</span>
-        <h3>MOBILE WARFARE</h3>
+
+        <span>
+          CALL OF DUTY MOBILE // COMBAT PROFILE
+        </span>
+
+        <h3>
+          MOBILE WARFARE
+        </h3>
+
       </div>
+
 
       <div class="player-rank">
 
@@ -695,9 +1028,19 @@
         >
 
         <div>
-          <small>CURRENT RANK</small>
-          <strong>YOUR RANK</strong>
-          <em>LEVEL 00</em>
+
+          <small>
+            CURRENT RANK
+          </small>
+
+          <strong>
+            YOUR RANK
+          </strong>
+
+          <em>
+            LEVEL 00
+          </em>
+
         </div>
 
       </div>
@@ -705,155 +1048,329 @@
     </div>
 
 
-    <!-- CODM MODES -->
+
+    <!-- ===================================================
+         CODM MODE SELECTOR
+    ==================================================== -->
 
     <div class="mode-selector">
 
-      <button class="mode-tab active" data-mode="codm-mp">
+      <button
+        type="button"
+        class="mode-tab active"
+        data-mode="codm-mp"
+      >
+
         <span>01</span>
+
         MULTIPLAYER
+
       </button>
 
-      <button class="mode-tab" data-mode="codm-br">
+
+      <button
+        type="button"
+        class="mode-tab"
+        data-mode="codm-br"
+      >
+
         <span>02</span>
+
         BATTLE ROYALE
+
       </button>
 
-      <button class="mode-tab" data-mode="codm-dmz">
+
+      <button
+        type="button"
+        class="mode-tab"
+        data-mode="codm-dmz"
+      >
+
         <span>03</span>
+
         DMZ
+
       </button>
 
-      <button class="mode-tab" data-mode="codm-zombies">
+
+      <button
+        type="button"
+        class="mode-tab"
+        data-mode="codm-zombies"
+      >
+
         <span>04</span>
+
         ZOMBIES
+
       </button>
 
     </div>
 
 
-    <!-- MULTIPLAYER -->
 
-    <div class="mode-panel active" id="codm-mp">
+    <!-- ===================================================
+         CODM MULTIPLAYER
+    ==================================================== -->
+
+    <div
+      class="mode-panel active"
+      id="codm-mp"
+    >
 
       <div class="mode-title">
 
         <div class="mode-badge">
+
           <img
             src="assets/ranks/codmmp.png"
             alt="COD Mobile Multiplayer Badge"
           >
+
         </div>
 
         <div>
-          <span>COD MOBILE // MULTIPLAYER</span>
-          <strong>RANKED COMBAT</strong>
+
+          <span>
+            COD MOBILE // MULTIPLAYER
+          </span>
+
+          <strong>
+            RANKED COMBAT
+          </strong>
+
         </div>
 
       </div>
+
 
 
       <div class="stat-grid">
 
-        <div class="big-stat">
+        <div
+          class="big-stat"
+          data-stat="kd"
+          data-kills="2087"
+          data-deaths="144"
+        >
+
           <small>K/D RATIO</small>
-          <strong>2.91</strong>
-          <span class="positive">+15.3%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wl"
+          data-matches="421"
+          data-wins="291"
+        >
+
           <small>W/L RATIO</small>
-          <strong>2.24</strong>
-          <span class="positive">+19.8%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="matches"
+          data-matches="421"
+        >
+
           <small>MATCHES PLAYED</small>
-          <strong>421</strong>
-          <span>TOTAL</span>
+
+          <strong>0</strong>
+
+          <span>
+            TOTAL
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wins"
+          data-matches="421"
+          data-wins="291"
+        >
+
           <small>MATCHES WON</small>
-          <strong>291</strong>
-          <span class="positive">69.1%</span>
+
+          <strong>0</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
       </div>
 
 
+
+      <!-- =================================================
+           MULTIPLAYER DONUTS
+      ================================================== -->
+
       <div class="analytics-grid">
 
-        <div class="chart-card">
+
+        <!-- MVP RATIO -->
+
+        <div class="performance-card">
 
           <div class="chart-heading">
-            <span>K/D PERFORMANCE</span>
-            <small>LAST 10 MATCHES</small>
-          </div>
 
-          <div class="line-chart">
+            <span>
+              MVP RATIO
+            </span>
 
-            <svg
-              viewBox="0 0 500 180"
-              preserveAspectRatio="none"
-            >
-
-              <polyline
-                class="chart-line"
-                points="0,135 50,115 100,120 150,88 200,95 250,70 300,76 350,52 400,65 450,38 500,42"
-              />
-
-              <circle cx="450" cy="38" r="4"/>
-              <circle cx="500" cy="42" r="4"/>
-
-            </svg>
+            <small>
+              TOTAL MATCHES
+            </small>
 
           </div>
 
-          <div class="chart-labels">
-            <span>M01</span>
-            <span>M02</span>
-            <span>M03</span>
-            <span>M04</span>
-            <span>M05</span>
-            <span>M06</span>
-            <span>M07</span>
-            <span>M08</span>
-            <span>M09</span>
-            <span>M10</span>
+
+          <div
+            class="donut-chart cod-donut"
+            data-mvp-donut
+            data-mvps="452"
+            data-total-matches="2083"
+            style="--win-rate: 0%;"
+          >
+
+            <div class="donut-inner">
+
+              <strong data-mvp-percent>
+                0%
+              </strong>
+
+              <small>
+                MVP RATIO
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="win-loss">
+
+            <div>
+
+              <i class="win-dot"></i>
+
+              <span>
+                MVP
+              </span>
+
+              <strong data-mvp-display>
+                0
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <i class="loss-dot"></i>
+
+              <span>
+                MATCHES
+              </span>
+
+              <strong data-matches-display>
+                0
+              </strong>
+
+            </div>
+
           </div>
 
         </div>
 
 
+        <!-- WIN / LOSS -->
+
         <div class="performance-card">
 
           <div class="chart-heading">
-            <span>WIN / LOSS</span>
-            <small>421 MATCHES</small>
+
+            <span>
+              WIN / LOSS
+            </span>
+
+            <small class="matches-label">
+              421 MATCHES
+            </small>
+
           </div>
 
-          <div class="donut-chart cod-donut">
+
+          <div
+            class="donut-chart"
+            data-donut
+          >
 
             <div class="donut-inner">
-              <strong>69.1%</strong>
-              <small>WIN RATE</small>
+
+              <strong data-win-rate>
+                0%
+              </strong>
+
+              <small>
+                WIN RATE
+              </small>
+
             </div>
 
           </div>
+
 
           <div class="win-loss">
 
             <div>
+
               <i class="win-dot"></i>
-              <span>WINS</span>
-              <strong>291</strong>
+
+              <span>
+                WINS
+              </span>
+
+              <strong data-wins>
+                0
+              </strong>
+
             </div>
 
+
             <div>
+
               <i class="loss-dot"></i>
-              <span>LOSSES</span>
-              <strong>130</strong>
+
+              <span>
+                LOSSES
+              </span>
+
+              <strong data-losses>
+                0
+              </strong>
+
             </div>
 
           </div>
@@ -865,128 +1382,268 @@
     </div>
 
 
-    <!-- BATTLE ROYALE -->
 
-    <div class="mode-panel" id="codm-br">
+    <!-- ===================================================
+         CODM BATTLE ROYALE
+    ==================================================== -->
+
+    <div
+      class="mode-panel"
+      id="codm-br"
+    >
 
       <div class="mode-title">
 
         <div class="mode-badge">
+
           <img
             src="assets/ranks/codmbr.png"
             alt="COD Mobile Battle Royale Badge"
           >
+
         </div>
 
         <div>
-          <span>COD MOBILE // BATTLE ROYALE</span>
-          <strong>SURVIVAL ANALYSIS</strong>
+
+          <span>
+            COD MOBILE // BATTLE ROYALE
+          </span>
+
+          <strong>
+            SURVIVAL ANALYSIS
+          </strong>
+
         </div>
 
       </div>
+
 
 
       <div class="stat-grid">
 
-        <div class="big-stat">
+        <div
+          class="big-stat"
+          data-stat="kd"
+          data-kills="421"
+          data-deaths="100"
+        >
+
           <small>K/D RATIO</small>
-          <strong>4.21</strong>
-          <span class="positive">+21.7%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wl"
+          data-matches="218"
+          data-wins="91"
+        >
+
           <small>W/L RATIO</small>
-          <strong>1.73</strong>
-          <span class="positive">+11.4%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="matches"
+          data-matches="218"
+        >
+
           <small>MATCHES PLAYED</small>
-          <strong>218</strong>
-          <span>TOTAL</span>
+
+          <strong>0</strong>
+
+          <span>
+            TOTAL
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wins"
+          data-matches="218"
+          data-wins="91"
+        >
+
           <small>MATCHES WON</small>
-          <strong>91</strong>
-          <span class="positive">41.7%</span>
+
+          <strong>0</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
       </div>
 
 
+
+      <!-- =================================================
+           BATTLE ROYALE DONUTS
+      ================================================== -->
+
       <div class="analytics-grid">
 
-        <div class="chart-card">
+
+        <!-- AVERAGE DAMAGE -->
+
+        <div class="performance-card">
 
           <div class="chart-heading">
-            <span>SURVIVAL PERFORMANCE</span>
-            <small>LAST 10 MATCHES</small>
-          </div>
 
-          <div class="line-chart">
+            <span>
+              AVERAGE DAMAGE
+            </span>
 
-            <svg
-              viewBox="0 0 500 180"
-              preserveAspectRatio="none"
-            >
-
-              <polyline
-                class="chart-line"
-                points="0,140 50,125 100,110 150,120 200,88 250,95 300,65 350,70 400,50 450,42 500,30"
-              />
-
-              <circle cx="450" cy="42" r="4"/>
-              <circle cx="500" cy="30" r="4"/>
-
-            </svg>
+            <small>
+              COMBAT OUTPUT
+            </small>
 
           </div>
 
-          <div class="chart-labels">
-            <span>01</span>
-            <span>02</span>
-            <span>03</span>
-            <span>04</span>
-            <span>05</span>
-            <span>06</span>
-            <span>07</span>
-            <span>08</span>
-            <span>09</span>
-            <span>10</span>
+
+          <div
+            class="donut-chart br-donut"
+            data-damage-donut
+            data-average-damage="684"
+            data-max-damage="1000"
+            style="--win-rate: 0%;"
+          >
+
+            <div class="donut-inner">
+
+              <strong data-average-damage>
+                0
+              </strong>
+
+              <small>
+                AVG DAMAGE
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="win-loss">
+
+            <div>
+
+              <i class="win-dot"></i>
+
+              <span>
+                AVERAGE
+              </span>
+
+              <strong data-damage-display>
+                0
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <i class="loss-dot"></i>
+
+              <span>
+                REFERENCE
+              </span>
+
+              <strong data-damage-max>
+                0
+              </strong>
+
+            </div>
+
           </div>
 
         </div>
 
 
+        <!-- VICTORY RATE -->
+
         <div class="performance-card">
 
           <div class="chart-heading">
-            <span>VICTORY RATE</span>
-            <small>218 MATCHES</small>
+
+            <span>
+              VICTORY RATE
+            </span>
+
+            <small class="matches-label">
+              218 MATCHES
+            </small>
+
           </div>
 
-          <div class="donut-chart br-donut">
+
+          <div
+            class="donut-chart"
+            data-donut
+          >
 
             <div class="donut-inner">
-              <strong>41.7%</strong>
-              <small>VICTORIES</small>
+
+              <strong data-win-rate>
+                0%
+              </strong>
+
+              <small>
+                VICTORIES
+              </small>
+
             </div>
 
           </div>
+
 
           <div class="win-loss">
 
             <div>
+
               <i class="win-dot"></i>
-              <span>WINS</span>
-              <strong>91</strong>
+
+              <span>
+                WINS
+              </span>
+
+              <strong data-wins>
+                0
+              </strong>
+
             </div>
 
+
             <div>
+
               <i class="loss-dot"></i>
-              <span>LOSSES</span>
-              <strong>127</strong>
+
+              <span>
+                LOSSES
+              </span>
+
+              <strong data-losses>
+                0
+              </strong>
+
             </div>
 
           </div>
@@ -998,128 +1655,268 @@
     </div>
 
 
-    <!-- DMZ -->
 
-    <div class="mode-panel" id="codm-dmz">
+    <!-- ===================================================
+         CODM DMZ
+    ==================================================== -->
+
+    <div
+      class="mode-panel"
+      id="codm-dmz"
+    >
 
       <div class="mode-title">
 
         <div class="mode-badge">
+
           <img
             src="assets/ranks/codmdmz.png"
             alt="COD Mobile DMZ Badge"
           >
+
         </div>
 
         <div>
-          <span>COD MOBILE // DMZ</span>
-          <strong>EXTRACTION ANALYSIS</strong>
+
+          <span>
+            COD MOBILE // DMZ
+          </span>
+
+          <strong>
+            EXTRACTION ANALYSIS
+          </strong>
+
         </div>
 
       </div>
+
 
 
       <div class="stat-grid">
 
-        <div class="big-stat">
+        <div
+          class="big-stat"
+          data-stat="kd"
+          data-kills="376"
+          data-deaths="100"
+        >
+
           <small>K/D RATIO</small>
-          <strong>3.76</strong>
-          <span class="positive">+17.9%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wl"
+          data-matches="167"
+          data-wins="108"
+        >
+
           <small>W/L RATIO</small>
-          <strong>1.95</strong>
-          <span class="positive">+13.2%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="matches"
+          data-matches="167"
+        >
+
           <small>MATCHES PLAYED</small>
-          <strong>167</strong>
-          <span>TOTAL</span>
+
+          <strong>0</strong>
+
+          <span>
+            TOTAL
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wins"
+          data-matches="167"
+          data-wins="108"
+        >
+
           <small>MATCHES WON</small>
-          <strong>108</strong>
-          <span class="positive">64.7%</span>
+
+          <strong>0</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
       </div>
 
 
+
+      <!-- =================================================
+           DMZ DONUTS
+      ================================================== -->
+
       <div class="analytics-grid">
 
-        <div class="chart-card">
+
+        <!-- TOTAL ASSETS -->
+
+        <div class="performance-card">
 
           <div class="chart-heading">
-            <span>EXTRACTION PERFORMANCE</span>
-            <small>LAST 10 MATCHES</small>
-          </div>
 
-          <div class="line-chart">
+            <span>
+              TOTAL ASSETS
+            </span>
 
-            <svg
-              viewBox="0 0 500 180"
-              preserveAspectRatio="none"
-            >
-
-              <polyline
-                class="chart-line"
-                points="0,135 50,120 100,128 150,92 200,105 250,78 300,84 350,58 400,65 450,40 500,46"
-              />
-
-              <circle cx="450" cy="40" r="4"/>
-              <circle cx="500" cy="46" r="4"/>
-
-            </svg>
+            <small>
+              ASSETS EXTRACTED
+            </small>
 
           </div>
 
-          <div class="chart-labels">
-            <span>01</span>
-            <span>02</span>
-            <span>03</span>
-            <span>04</span>
-            <span>05</span>
-            <span>06</span>
-            <span>07</span>
-            <span>08</span>
-            <span>09</span>
-            <span>10</span>
+
+          <div
+            class="donut-chart dmz-donut"
+            data-asset-donut
+            data-assets-owned="108"
+            data-assets-total="200"
+            style="--win-rate: 0%;"
+          >
+
+            <div class="donut-inner">
+
+              <strong data-asset-percent>
+                0%
+              </strong>
+
+              <small>
+                ASSETS
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="win-loss">
+
+            <div>
+
+              <i class="win-dot"></i>
+
+              <span>
+                EXTRACTED
+              </span>
+
+              <strong data-assets-owned-display>
+                0
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <i class="loss-dot"></i>
+
+              <span>
+                REMAINING
+              </span>
+
+              <strong data-assets-remaining>
+                0
+              </strong>
+
+            </div>
+
           </div>
 
         </div>
 
 
+        <!-- EXTRACTION RATE -->
+
         <div class="performance-card">
 
           <div class="chart-heading">
-            <span>EXTRACTION RATE</span>
-            <small>167 MATCHES</small>
+
+            <span>
+              EXTRACTION RATE
+            </span>
+
+            <small class="matches-label">
+              167 MATCHES
+            </small>
+
           </div>
 
-          <div class="donut-chart dmz-donut">
+
+          <div
+            class="donut-chart"
+            data-donut
+          >
 
             <div class="donut-inner">
-              <strong>64.7%</strong>
-              <small>SUCCESS</small>
+
+              <strong data-win-rate>
+                0%
+              </strong>
+
+              <small>
+                SUCCESS
+              </small>
+
             </div>
 
           </div>
+
 
           <div class="win-loss">
 
             <div>
+
               <i class="win-dot"></i>
-              <span>SUCCESS</span>
-              <strong>108</strong>
+
+              <span>
+                SUCCESS
+              </span>
+
+              <strong data-wins>
+                0
+              </strong>
+
             </div>
 
+
             <div>
+
               <i class="loss-dot"></i>
-              <span>FAILED</span>
-              <strong>59</strong>
+
+              <span>
+                FAILED
+              </span>
+
+              <strong data-losses>
+                0
+              </strong>
+
             </div>
 
           </div>
@@ -1131,95 +1928,191 @@
     </div>
 
 
-    <!-- ZOMBIES -->
 
-    <div class="mode-panel" id="codm-zombies">
+    <!-- ===================================================
+         CODM ZOMBIES
+    ==================================================== -->
+
+    <div
+      class="mode-panel"
+      id="codm-zombies"
+    >
 
       <div class="mode-title">
 
         <div class="mode-badge">
+
           <img
             src="assets/ranks/codm-zombies.png"
             alt="COD Mobile Zombies Badge"
           >
+
         </div>
 
         <div>
-          <span>COD MOBILE // ZOMBIES</span>
-          <strong>UNDEAD COMBAT ANALYSIS</strong>
+
+          <span>
+            COD MOBILE // ZOMBIES
+          </span>
+
+          <strong>
+            UNDEAD COMBAT ANALYSIS
+          </strong>
+
         </div>
 
       </div>
+
 
 
       <div class="stat-grid">
 
-        <div class="big-stat">
+        <div
+          class="big-stat"
+          data-stat="kd"
+          data-kills="584"
+          data-deaths="100"
+        >
+
           <small>K/D RATIO</small>
-          <strong>5.84</strong>
-          <span class="positive">+26.4%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wl"
+          data-matches="143"
+          data-wins="104"
+        >
+
           <small>W/L RATIO</small>
-          <strong>2.88</strong>
-          <span class="positive">+20.1%</span>
+
+          <strong>0.00</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="matches"
+          data-matches="143"
+        >
+
           <small>MATCHES PLAYED</small>
-          <strong>143</strong>
-          <span>TOTAL</span>
+
+          <strong>0</strong>
+
+          <span>
+            TOTAL
+          </span>
+
         </div>
 
-        <div class="big-stat">
+
+        <div
+          class="big-stat"
+          data-stat="wins"
+          data-matches="143"
+          data-wins="104"
+        >
+
           <small>MATCHES WON</small>
-          <strong>104</strong>
-          <span class="positive">72.7%</span>
+
+          <strong>0</strong>
+
+          <span class="positive">
+            AUTO
+          </span>
+
         </div>
 
       </div>
 
 
+
+      <!-- =================================================
+           ZOMBIES DONUT
+      ================================================== -->
+
       <div class="analytics-grid">
 
-        <div class="chart-card">
+        <div class="performance-card">
 
           <div class="chart-heading">
-            <span>ZOMBIE ELIMINATION RATE</span>
-            <small>LAST 10 MATCHES</small>
-          </div>
 
-          <div class="line-chart">
+            <span>
+              SURVIVAL RATE
+            </span>
 
-            <svg
-              viewBox="0 0 500 180"
-              preserveAspectRatio="none"
-            >
-
-              <polyline
-                class="chart-line"
-                points="0,125 50,105 100,115 150,80 200,90 250,62 300,70 350,48 400,55 450,32 500,25"
-              />
-
-              <circle cx="450" cy="32" r="4"/>
-              <circle cx="500" cy="25" r="4"/>
-
-            </svg>
+            <small class="matches-label">
+              143 MATCHES
+            </small>
 
           </div>
 
-          <div class="chart-labels">
-            <span>01</span>
-            <span>02</span>
-            <span>03</span>
-            <span>04</span>
-            <span>05</span>
-            <span>06</span>
-            <span>07</span>
-            <span>08</span>
-            <span>09</span>
-            <span>10</span>
+
+          <div
+            class="donut-chart zombie-donut"
+            data-donut
+          >
+
+            <div class="donut-inner">
+
+              <strong data-win-rate>
+                0%
+              </strong>
+
+              <small>
+                COMPLETED
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="win-loss">
+
+            <div>
+
+              <i class="win-dot"></i>
+
+              <span>
+                COMPLETED
+              </span>
+
+              <strong data-wins>
+                0
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <i class="loss-dot"></i>
+
+              <span>
+                FAILED
+              </span>
+
+              <strong data-losses>
+                0
+              </strong>
+
+            </div>
+
           </div>
 
         </div>
@@ -1228,31 +2121,71 @@
         <div class="performance-card">
 
           <div class="chart-heading">
-            <span>SURVIVAL RATE</span>
-            <small>143 MATCHES</small>
+
+            <span>
+              K/D PERFORMANCE
+            </span>
+
+            <small>
+              UNDEAD COMBAT
+            </small>
+
           </div>
 
-          <div class="donut-chart zombie-donut">
+
+          <div
+            class="donut-chart"
+            data-kd-donut
+            data-kills="584"
+            data-deaths="100"
+            data-kd-reference="10"
+            style="--win-rate: 0%;"
+          >
 
             <div class="donut-inner">
-              <strong>72.7%</strong>
-              <small>COMPLETED</small>
+
+              <strong data-kd-value>
+                0.00
+              </strong>
+
+              <small>
+                K/D RATIO
+              </small>
+
             </div>
 
           </div>
+
 
           <div class="win-loss">
 
             <div>
+
               <i class="win-dot"></i>
-              <span>COMPLETED</span>
-              <strong>104</strong>
+
+              <span>
+                KILLS
+              </span>
+
+              <strong data-kills-display>
+                0
+              </strong>
+
             </div>
 
+
             <div>
+
               <i class="loss-dot"></i>
-              <span>FAILED</span>
-              <strong>39</strong>
+
+              <span>
+                DEATHS
+              </span>
+
+              <strong data-deaths-display>
+                0
+              </strong>
+
             </div>
 
           </div>
@@ -1266,16 +2199,27 @@
   </div>
 
 
-  <!-- ================= ASPHALT 9 ================= -->
+
+  <!-- =====================================================
+       ASPHALT 9
+  ====================================================== -->
 
   <div class="game-panel" id="asphalt9">
 
     <div class="game-panel-heading">
 
       <div>
-        <span>ASPHALT 9 // RACING PROFILE</span>
-        <h3>RACING PERFORMANCE</h3>
+
+        <span>
+          ASPHALT 9 // RACING PROFILE
+        </span>
+
+        <h3>
+          RACING PERFORMANCE
+        </h3>
+
       </div>
+
 
       <div class="player-rank">
 
@@ -1285,9 +2229,19 @@
         >
 
         <div>
-          <small>CURRENT RANK</small>
-          <strong>YOUR RANK</strong>
-          <em>LEVEL 00</em>
+
+          <small>
+            CURRENT RANK
+          </small>
+
+          <strong>
+            YOUR RANK
+          </strong>
+
+          <em>
+            LEVEL 00
+          </em>
+
         </div>
 
       </div>
@@ -1295,141 +2249,291 @@
     </div>
 
 
-    <!-- ASPHALT 9 STATS -->
 
-    <div class="mode-panel active" id="asphalt9-stats">
+    <!-- ===================================================
+         ASPHALT 9 STATS
+    ==================================================== -->
+
+    <div
+      class="mode-panel active"
+      id="asphalt9-stats"
+    >
 
       <div class="mode-title">
 
-        <span>ASPHALT 9 // PLAYER PROFILE</span>
-        <strong>GARAGE &amp; REPUTATION ANALYSIS</strong>
+        <span>
+          ASPHALT 9 // PLAYER PROFILE
+        </span>
+
+        <strong>
+          GARAGE &amp; REPUTATION ANALYSIS
+        </strong>
 
       </div>
 
 
+
       <div class="stat-grid">
 
-        <!-- REPUTATION LEVEL -->
+
+        <!-- REPUTATION -->
 
         <div class="big-stat">
-          <small>REPUTATION LEVEL</small>
-          <strong>00</strong>
-          <span>PLAYER LEVEL</span>
+
+          <small>
+            REPUTATION LEVEL
+          </small>
+
+          <strong>
+            00
+          </strong>
+
+          <span>
+            PLAYER LEVEL
+          </span>
+
         </div>
 
 
         <!-- GARAGE LEVEL -->
 
         <div class="big-stat">
-          <small>GARAGE LEVEL</small>
-          <strong>00</strong>
-          <span>GARAGE STATUS</span>
+
+          <small>
+            GARAGE LEVEL
+          </small>
+
+          <strong>
+            13
+          </strong>
+
+          <span>
+            GARAGE STATUS
+          </span>
+
         </div>
 
 
         <!-- CARS OWNED -->
 
-        <div class="big-stat">
-          <small>CARS OWNED</small>
-          <strong>00</strong>
-          <span>TOTAL VEHICLES</span>
+        <div
+          class="big-stat"
+          data-stat="cars-owned"
+          data-owned="68"
+          data-total-cars="247"
+        >
+
+          <small>
+            CARS OWNED
+          </small>
+
+          <strong>
+            68
+          </strong>
+
+          <span>
+            TOTAL VEHICLES
+          </span>
+
         </div>
 
 
-        <!-- TOTAL COLLECTION PROGRESSION -->
+        <!-- TOTAL COLLECTION -->
 
-        <div class="big-stat">
-          <small>TOTAL COLLECTION</small>
-          <strong>00%</strong>
-          <span>COLLECTION PROGRESSION</span>
+        <div
+          class="big-stat"
+          data-stat="collection"
+          data-owned="68"
+          data-total-cars="247"
+        >
+
+          <small>
+            TOTAL COLLECTION
+          </small>
+
+          <strong>
+            00%
+          </strong>
+
+          <span>
+            COLLECTION PROGRESSION
+          </span>
+
         </div>
 
 
-        <!-- GAUNTLET RANK -->
+        <!-- GAUNTLET -->
 
         <div class="big-stat">
-          <small>GAUNTLET RANK</small>
-          <strong>#00</strong>
-          <span>CURRENT POSITION</span>
+
+          <small>
+            GAUNTLET RANK
+          </small>
+
+          <strong>
+            #00
+          </strong>
+
+          <span>
+            CURRENT POSITION
+          </span>
+
         </div>
 
       </div>
 
 
-      <!-- COLLECTION ANALYSIS -->
+
+      <!-- =================================================
+           ASPHALT DONUTS
+      ================================================== -->
 
       <div class="analytics-grid">
 
-        <div class="chart-card">
+
+        <!-- COLLECTION -->
+
+        <div class="performance-card">
 
           <div class="chart-heading">
-            <span>GARAGE PROGRESSION</span>
-            <small>COLLECTION STATUS</small>
-          </div>
 
-          <div class="line-chart">
+            <span>
+              CAR COLLECTION
+            </span>
 
-            <svg
-              viewBox="0 0 500 180"
-              preserveAspectRatio="none"
-            >
-
-              <polyline
-                class="chart-line"
-                points="0,150 50,142 100,135 150,125 200,118 250,105 300,95 350,82 400,70 450,58 500,45"
-              />
-
-              <circle cx="450" cy="58" r="4"/>
-              <circle cx="500" cy="45" r="4"/>
-
-            </svg>
+            <small>
+              TOTAL COLLECTION
+            </small>
 
           </div>
 
-          <div class="chart-labels">
-            <span>01</span>
-            <span>02</span>
-            <span>03</span>
-            <span>04</span>
-            <span>05</span>
-            <span>06</span>
-            <span>07</span>
-            <span>08</span>
-            <span>09</span>
-            <span>10</span>
+
+          <div
+            class="donut-chart asphalt-donut"
+            data-collection-donut
+            style="--win-rate: 0%;"
+          >
+
+            <div class="donut-inner">
+
+              <strong>
+                00%
+              </strong>
+
+              <small>
+                COLLECTED
+              </small>
+
+            </div>
+
+          </div>
+
+
+          <div class="win-loss">
+
+            <div>
+
+              <i class="win-dot"></i>
+
+              <span>
+                OWNED
+              </span>
+
+              <strong>
+                68
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <i class="loss-dot"></i>
+
+              <span>
+                REMAINING
+              </span>
+
+              <strong>
+                179
+              </strong>
+
+            </div>
+
           </div>
 
         </div>
 
 
+        <!-- GARAGE LEVEL -->
+
         <div class="performance-card">
 
           <div class="chart-heading">
-            <span>CAR COLLECTION</span>
-            <small>TOTAL COLLECTION</small>
+
+            <span>
+              GARAGE PROGRESSION
+            </span>
+
+            <small>
+              VEHICLE COLLECTION
+            </small>
+
           </div>
 
-          <div class="donut-chart asphalt-donut">
+
+          <div
+            class="donut-chart asphalt-donut"
+            data-garage-donut
+            data-garage-level="13"
+            data-max-garage-level="20"
+            style="--win-rate: 0%;"
+          >
 
             <div class="donut-inner">
-              <strong>00%</strong>
-              <small>COLLECTED</small>
+
+              <strong>
+                13
+              </strong>
+
+              <small>
+                GARAGE LEVEL
+              </small>
+
             </div>
 
           </div>
+
 
           <div class="win-loss">
 
             <div>
+
               <i class="win-dot"></i>
-              <span>OWNED</span>
-              <strong>00</strong>
+
+              <span>
+                CURRENT
+              </span>
+
+              <strong>
+                13
+              </strong>
+
             </div>
 
+
             <div>
+
               <i class="loss-dot"></i>
-              <span>REMAINING</span>
-              <strong>00</strong>
+
+              <span>
+                MAX
+              </span>
+
+              <strong>
+                20
+              </strong>
+
             </div>
 
           </div>
@@ -1443,7 +2547,6 @@
   </div>
 
 </section>
-
 
 <!-- =========================================================
      SUPPORT // SYSTEM COMMAND CENTER
